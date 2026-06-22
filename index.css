@@ -122,3 +122,18 @@ h1 {
     opacity: 1;
   }
 }
+.image {
+  opacity: 0;
+  animation-name: pop;
+  animation-timing-function: ease-out;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
