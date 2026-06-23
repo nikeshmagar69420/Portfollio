@@ -39,6 +39,7 @@ h1 {
 }
 .nav-bar h1 {
   color: black;
+  font-size: 7rem;
 }
 .about-me {
   display: flex;
@@ -145,7 +146,7 @@ h1 {
     opacity: 1;
   }
 }
-@media (max-width: 943px) {
+@media (max-width: 430px) {
   .about-me {
     padding-left: 22px;
   }
@@ -168,13 +169,16 @@ h1 {
     position: relative;
     bottom: 200px;
   }
-.container{ height: 250px;
-position: absolute;
-top: 330px;
-}
-.image{ background-size: contain;}
-.me h3{ position: relative;
-top: 30px;
-}
-
+  .container {
+    height: 250px;
+    position: absolute;
+    top: 330px;
+  }
+  .image {
+    background-size: contain;
+  }
+  .me h3 {
+    position: relative;
+    top: 30px;
+  }
 }
