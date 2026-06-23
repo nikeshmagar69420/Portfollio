@@ -9,7 +9,7 @@
   background-image: url(heropage.avif);
   height: 100vh;
   background-size: cover;
-  z-index: -1;
+  z-index: -5;
 }
 /* nav-bar */
 h1 {
@@ -129,6 +129,14 @@ h1 {
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
+.me {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.me p {
+  margin-top: 20px;
+}
 @keyframes pop {
   from {
     opacity: 0;
@@ -136,4 +144,37 @@ h1 {
   to {
     opacity: 1;
   }
+}
+@media (max-width: 943px) {
+  .about-me {
+    padding-left: 22px;
+  }
+  .nav {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav-bar {
+    width: 600px;
+    background-color: transparent;
+    border: none;
+  }
+  .nav-bar h1 {
+    color: white;
+  }
+  .me {
+    position: relative;
+    bottom: 200px;
+  }
+.container{ height: 250px;
+position: absolute;
+top: 330px;
+}
+.image{ background-size: contain;}
+.me h3{ position: relative;
+top: 30px;
+}
+
 }
