@@ -85,8 +85,7 @@ h1 {
   font-size: 2rem;
 }
 .nav-bar h1:hover {
-  opacity: 0.6;
-}
+  border-bottom: 1px solid black;}
 .nav-bar {
   animation-name: slide-down;
   animation-timing-function: ease-out;
