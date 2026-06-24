@@ -5,6 +5,7 @@
   color: white;
   text-decoration: none;
 }
+html{ scroll-behavior: smooth;}
 .hero-section {
   background-image: url(heropage.avif);
   height: 100vh;
@@ -30,6 +31,8 @@ h1 {
   height: 70px;
   /* width: 50%; */
   width: 900px;
+  position: fixed;
+  z-index: 10;
 }
 .nav {
   display: flex;
@@ -182,3 +185,5 @@ h1 {
     top: 30px;
   }
 }
+.hello{ border:2px solid green;
+height: 1000px;}
