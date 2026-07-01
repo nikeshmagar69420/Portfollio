@@ -5,7 +5,9 @@
   color: white;
   text-decoration: none;
 }
-html{ scroll-behavior: smooth;}
+html {
+  scroll-behavior: smooth;
+}
 .hero-section {
   background-image: url(heropage.avif);
   height: 100vh;
@@ -42,7 +44,7 @@ h1 {
 }
 .nav-bar h1 {
   color: black;
-  font-size: clamp(1rem,5vw,2rem);
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 .about-me {
   display: flex;
@@ -88,7 +90,8 @@ h1 {
   font-size: 2rem;
 }
 .nav-bar h1:hover {
-  border-bottom: 1px solid black;}
+  border-bottom: 1px solid black;
+}
 .nav-bar {
   animation-name: slide-down;
   animation-timing-function: ease-out;
@@ -184,6 +187,77 @@ h1 {
     position: relative;
     top: 30px;
   }
+  /* about me */
 }
-.hello{ border:2px solid green;
-height: 1000px;}
+.myself {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
+}
+.little h1 {
+  color: black;
+}
+
+.little {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border: 8px solid black;
+  width: 250px;
+  height: 80px;
+}
+#text {
+  color: black;
+  font-size: 2rem;
+}
+.uni {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.uni h4 {
+  color: black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  width: 200px;
+  text-align: center;
+  font-size: 2rem;
+}
+.skilz {
+  height: 300px;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.skills h1 {
+  color: black;
+}
+.skills p {
+  color: black;
+  font-weight: lighter;
+}
+.skills {
+  height: 100px;
+  width: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+/* skills */
+.mine {
+  height: 100vh;
+  border: 5px solid black;
+}
