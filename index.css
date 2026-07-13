@@ -257,6 +257,7 @@ h1 {
     /* animation-iteration-count: 1; */
     transform: translateX(-500px);
     animation-fill-mode: forwards;
+    top: 100px;
   }
 
   /* about me */
