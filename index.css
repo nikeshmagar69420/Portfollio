@@ -129,7 +129,7 @@ h1 {
   animation-timing-function: ease-out;
   animation-duration: 1.5s;
   /* animation-iteration-count: 1; */
-
+  transform: translateX(-500px);
   animation-fill-mode: forwards;
 }
 @keyframes right {
@@ -143,11 +143,10 @@ h1 {
   }
 }
 .image {
-  animation-name: right;
+  opacity: 0;
+  animation-name: pop;
   animation-timing-function: ease-out;
   animation-duration: 1.5s;
-  /* animation-iteration-count: 1; */
-  transform: translateX(-100%);
   animation-fill-mode: forwards;
 }
 .me {
@@ -158,14 +157,14 @@ h1 {
 .me p {
   margin-top: 20px;
 }
-/* @keyframes pop {
+@keyframes pop {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-} */
+}
 @media (max-width: 768px) {
   .about-me {
     padding-left: 22px;
@@ -233,7 +232,7 @@ h1 {
   .image {
     background-size: contain;
     /* visibility: hidden; */
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .me h3 {
     position: relative;
@@ -252,6 +251,12 @@ h1 {
     position: absolute;
 
     bottom: 300px;
+    animation-name: right;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    /* animation-iteration-count: 1; */
+    transform: translateX(-500px);
+    animation-fill-mode: forwards;
   }
 
   /* about me */
@@ -335,11 +340,3 @@ h1 {
   position: relative;
   bottom: 350px;
 } */
-.all {
-  animation-name: right;
-  animation-timing-function: ease-out;
-  animation-duration: 1.5s;
-  /* animation-iteration-count: 1; */
-  transform: translateX(-500px);
-  animation-fill-mode: forwards;
-}
